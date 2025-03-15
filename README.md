@@ -64,7 +64,7 @@ GOOGLE_MAPS_API_KEY=clave_google_maps
 ### 4. Iniciar el servidor
 
 ```bash
-npm start  # Modo desarrollo (con nodemon)
+npm run dev  # Modo desarrollo (con nodemon)
 ```
 
 ---
