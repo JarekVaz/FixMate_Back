@@ -4,6 +4,49 @@ Backend de la plataforma FixMate, desarrollado en Node.js con Express. Proporcio
 
 ---
 
+## **Requisitos del Backend** 📋
+
+### **Requisitos Funcionales**
+
+- [ ] **REQ-F-001**: Búsqueda avanzada con filtros (ubicación, disponibilidad, precio, etc.).
+- [ ] **REQ-F-002**: Verificación de profesionistas (documentos, certificaciones).
+- [ ] **REQ-F-003**: Sistema de reseñas y calificaciones verificadas.
+- [ ] **REQ-F-004**: Gestión de perfiles de usuarios y profesionistas (CRUD).
+- [ ] **REQ-F-005**: Registro y seguimiento de servicios contratados (historial).
+- [ ] **REQ-F-006**: Agenda integrada con recordatorios automáticos.
+- [ ] **REQ-F-007**: Integración de pagos seguros (Stripe/PayPal).
+- [ ] **REQ-F-008**: Modelos de monetización (comisiones, planes premium).
+- [ ] **REQ-F-009**: Generación de reportes y estadísticas.
+- [ ] **REQ-F-010**: Gestión de cancelaciones y reembolsos automatizados.
+
+### **Requisitos No Funcionales**
+
+#### **Seguridad**
+
+- [ ] **REQ-NF-004**: Autenticación multifactor (MFA).
+- [ ] **REQ-NF-005**: Cifrado de datos sensibles (AES-256, TLS 1.3).
+- [ ] **REQ-NF-007**: Protección contra ataques (SQL Injection, XSS, CSRF).
+- [ ] **REQ-NF-008**: Políticas de contraseñas seguras (12+ caracteres).
+- [ ] **REQ-NF-011**: Monitoreo de seguridad en tiempo real.
+
+#### **Rendimiento**
+
+- [ ] **REQ-NF-001**: Soporte para 5,000 usuarios simultáneos.
+- [ ] **REQ-NF-002**: Tiempo de respuesta rápido (<2 segundos en consultas).
+- [ ] **REQ-NF-003**: Manejo de 100 transacciones/minuto.
+
+#### **Disponibilidad**
+
+- [ ] **REQ-NF-014**: 99.9% de disponibilidad anual.
+- [ ] **REQ-NF-015**: Ventanas de mantenimiento programado (máx. 4h/mes).
+
+#### **Mantenibilidad**
+
+- [ ] **REQ-NF-016**: Código modular y documentado.
+- [ ] **REQ-NF-017**: Actualizaciones sin interrupciones.
+
+---
+
 ## **Estructura del Proyecto** 📂
 
 ```plaintext
