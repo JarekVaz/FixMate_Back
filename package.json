@@ -1,10 +1,14 @@
 {
   "name": "fixmatebackend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend de la plataforma FixMate, desarrollado en Node.js con Express. Proporciona APIs para gestión de usuarios, servicios, reservas, pagos y reseñas, cumpliendo con altos estándares de seguridad y rendimiento.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "jest",
+    "build": "echo 'No build script defined'"
   },
   "repository": {
     "type": "git",
