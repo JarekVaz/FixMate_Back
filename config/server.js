@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 import morgan from "morgan";
 import dotenv from "dotenv";
+import router from "./routes/index.js";
 
 // Configuración de variables de entorno
 dotenv.config();
@@ -18,5 +19,7 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.send("Bienvenido a FixMate Backend");
 });
+
+app.use("/api", router);
 
 export { app, PORT };
