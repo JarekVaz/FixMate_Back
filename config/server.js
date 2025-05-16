@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import morgan from "morgan";
 import dotenv from "dotenv";
-import router from "./routes/index.js";
+import router from "../routes/index.js";
 
 // Configuración de variables de entorno
 dotenv.config();

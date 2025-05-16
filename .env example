@@ -1,0 +1,10 @@
+
+PORT=3000
+DB_HOST=localhost
+DB_NAME=
+DB_USER=postgres
+DB_PASSWORD=
+
+JWT_SECRET=clave_secreta_jwt
+STRIPE_API_KEY=clave_stripe
+GOOGLE_MAPS_API_KEY=clave_google_maps
