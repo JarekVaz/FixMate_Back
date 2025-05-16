@@ -81,14 +81,15 @@ FixmateBackend/
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/QueenPeluchitos/FixmateBackend.git
-cd FixmateBackend
+git clone https://github.com/JarekVaz/FixMate_Back.git
+cd FixMate_Back
 ```
 
 ### 2. Instalar dependencias
 
 ```bash
 npm install
+npm install multer
 ```
 
 ### 3. Configurar variables de entorno (.env)
@@ -159,6 +160,6 @@ npm run dev  # Modo desarrollo (con nodemon)
 ## **Licencia** 📄
 
 ISC © 2025 FixMate Team.  
-**Repositorio:** [github.com/QueenPeluchitos/FixmateBackend](https://github.com/QueenPeluchitos/FixmateBackend)
+**Repositorio:** [github.com/JarekVaz/FixMate_Back](https://github.com/JarekVaz/FixMate_Back.git)
 
 ---
